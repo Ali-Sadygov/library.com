@@ -1,0 +1,23 @@
+.body {
+    background-color: #720418;
+}
+.btn {
+    width: 100%;
+    background-color: #FF8B00!important;
+}
+.input{
+    margin-top: 4%;
+    border-radius: 5px!important;
+}
+.welcome {
+    background-color: white!important;
+    border-radius: 5px!important;
+    margin-top: 6.5%!important;
+    padding: 0% 5% 0% 5%;
+}
+.sign {
+    margin-bottom: 2.5%;
+}
+#gizlet {
+    display: none;
+}

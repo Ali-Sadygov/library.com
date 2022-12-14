@@ -1,0 +1,119 @@
+.row {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:active {
+    color: rgb(255, 139, 0) !important;
+    font-weight: 600 !important;
+    text-decoration-line: underline !important;
+}
+#body {
+    background-color: rgb(255,250,245);
+}
+.a:hover {
+    font-weight: bold;
+    color: rgb(255, 139, 0) !important
+}
+
+.atag {
+    color: rgb(36, 20, 0) !important;
+    text-decoration: none;
+}
+
+.atag:hover {
+    text-decoration-line: underline;
+}
+
+.infoleft {
+    padding: 0 4% 0 10%;
+}
+
+.m-0 {
+    font-weight: bold;
+}
+
+.info {
+    margin-top: 14% !important;
+}
+
+#catalog-home-list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.py-3 {
+    border-radius: 3px;
+}
+
+.font-weight-bolder {
+    font-weight: bolder !important;
+}
+
+.font {
+    color: rgb(36, 20, 0);
+}
+
+.list-group-item {
+    color: white !important;
+    font-size: 1.3em;
+}
+
+.mr-4 {
+    margin-right: 15px !important;
+}
+
+.btninfo {
+    background-color: #FF8B00;
+    border: solid 2px #FF8B00;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    width: 41%;
+    font-size: 100%;
+    margin-top: 4%;
+    height: 45px;
+}
+
+.infoic {
+    padding-right: 30%;
+}
+
+.img {
+    margin-bottom: 10px;
+}
+
+.li {
+    font-size: 100% !important;
+}
+
+.footer {
+    margin-top: 8%;
+    padding: 5% 0px;
+}
+.sign {
+    background-color: #FF8B00!important;
+    width: 100%!important;
+    margin-bottom: 3.5%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    margin-top: 4%;
+    border-radius: 5px!important;
+}
+.welcome {
+    background-color: white!important;
+    border-radius: 5px!important;
+    margin-top: 6.5%!important;
+    padding: 0% 5% 0% 5%;
+}
+.gizlet, #errorgizlet, #succesgizlet {
+    display: none!important;
+}

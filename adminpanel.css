@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.container-home {
+    display: flex;
+    flex-wrap: wrap;
+}
+#logout {
+    margin-left: 5%!important;
+}
+/* ADMIN MENU */
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 30px 0;
+    background-color: #720418;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #720418;
+    flex: 25%;
+    height: 100vh;
+}
+.logo .logo-content h1 {
+    color: #FFFFFF;
+    padding: 5px 0;
+    font-size: 13px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+.logo .logo-content p {
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 5px 0;
+}
+nav a {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 10px 50px;
+    font-size: 18px;
+}
+nav img {
+    padding-right: 15px;
+}
+.nav-link a:hover {
+    text-decoration: underline;
+}
+/* Admin Content */
+.container-home-content {
+    width: 100%;
+    padding: 40px;
+    margin-left: 20.5em;
+}
+.admin-adi {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #241400;
+}
+.admin-adi img {
+    padding: 10px;
+}
+.admin-search h3,
+.about,
+.joinus,
+.contactus {
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.atag {
+    text-decoration: none;
+}
+.atag:hover {
+    color: white;
+    text-decoration-line: underline!important;
+}
+.search-input {
+    color: #333333;
+    font-size: 18px;
+}
+.booksearchinput {
+    width: 400px;
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.filmsearchinput:focus {
+    border: 1px solid #3D92DD;
+    box-shadow: 0 0 15px #66A4DA;
+    outline-offset: 0px;
+    outline: none;
+}
+.booksearchinput:focus {
+    border: 1px solid #3D92DD!important;
+    box-shadow: 0 0 15px #66A4DA!important;
+    outline-offset: 0px!important;
+    outline: none!important;
+}
+.searchbutton {
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #FF8B00;
+    border: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-weight: inherit;
+}
+.book-form {
+    margin-top: 30px;
+}
+.book-form h4 {
+    font-size: 18px;
+    color: #333333;
+}
+
+.p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0!important;
+}
+.fontserif {
+    font-family: 'Roboto', sans-serif!important;
+}
+.book-content p {
+    color: #030102;
+    font-size: 1em;
+    padding: 15px 0;
+}
+.about {
+    margin-bottom: 0 !important;
+    margin-top: 80px;
+}
+.book-input {
+    margin-top: -10px;
+}
+.book-content .book-input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CED4DA;
+    font-size: 1.25em;
+}
+.book-content .book-input:focus {
+    border: 1px solid #3D92DD;
+    box-shadow: 0 0 15px #66A4DA;
+    outline-offset: 0px;
+    outline: none;
+}
+.new-check {
+    margin-right: 5px;
+}
+.plus {
+    color: green;
+    padding: 10px;
+}
+.booktypebutton {
+    border: none;
+    background: none;
+    padding: 5px;
+}
+.booktypebutton:focus {
+    border: 2px solid #5F97C9;
+}
+.button-add {
+    width: 75%;
+    padding: 10px;
+    margin-top: 18px!important;
+    background-color: #FF8B00;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-add:hover {
+    background-color: #C9730A;
+}
+@media only screen and (max-width: 600px) {
+    .container-home {
+        flex-wrap: wrap;
+    }
+    nav {
+        position: relative;
+        width: 100%;
+    }
+    .container-home-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+.container-home-content{
+    margin-top: 5%;
+}
+table style table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th {
+    background: #720418;
+    color: white;
+    font-weight: bold;
+}
+td,
+th {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+}
+.joinus,
+.contactus {
+    margin-bottom: 20px !important;
+    margin-top: 80px;
+}
+.contact-table {
+    width: 100%;
+}
+.searchbutton, #searchbutton {
+    height: 45px;
+    box-sizing: border-box;
+}
+.hamburger-icon {
+    font-size: 30px;
+    color: #720418;
+}
+.color {
+    background-color: #241400;
+}
+#yasil {
+    border: solid rgb(10, 218, 10) 1px!important;
+}

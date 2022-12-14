@@ -1,0 +1,96 @@
+.row {
+    box-sizing: border-box;
+    width: 100%;
+}
+.nav-link {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+.follow {
+    margin-top: 20%;
+}
+#fullNameContact {
+    margin-bottom: 3.5%!important;
+}
+.nav-link:active {
+    color: rgb(255,139,0)!important;
+    font-weight: 600!important;
+    text-decoration-line: underline!important;
+}
+.a:hover {
+    font-weight: bold;
+    color: rgb(255,139,0)!important
+}
+.font-weight-bolder {
+    font-weight: bolder!important;
+}
+.font {
+    color: rgb(36,20,0);
+}.list-group-item {
+    color: white!important;
+    font-size: 1.3em;
+}
+.img {
+    margin-bottom: 10px;
+}
+.li {
+    font-size: 100%!important;
+}
+.footer {
+    margin-top: 8%;
+    padding: 5% 0px;
+}
+.sign {
+    background-color: #FF8B00!important;
+    width: 100%!important;
+    margin-bottom: 7%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    margin-top: 4%;
+    border-radius: 5px!important;
+}
+.welcome {
+    background-color: white!important;
+    border-radius: 5px!important;
+    margin-top: 6.5%!important;
+    padding: 0% 5% 0% 5%;
+}
+.gizlet, #errorgizlet, #succesgizlet {
+    display: none!important;
+}
+.searchbook{
+    gap: 3vh;
+   
+}
+/* .item{
+    background: #e0ffcd; 
+}
+.carousel-inner::shadow{
+color: yellow;
+} */
+.carousel-control{
+background: red;
+}
+#searchicon{
+margin: 1vh;
+}
+#karuseldiv {
+    height: 20vh;
+}
+.carousel{
+    width: 110vh;
+    margin-left: 10vh;
+    padding-left: 5vh;
+}
+.searchbook{
+    gap: 10vh;
+}
+#d-none, #carouselid {
+    display: none;
+}
+#body {
+    background-color: rgb(255,250,245);
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./images/vektor.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font wesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Mulish:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="adminpanel.css">
+    <title>Admin Panel | Library Book Store</title>
+</head>
+
+<body>
+    <!-- home -->
+
+    <div class="container-fluid">
+        <nav class="col-md-3 bg-pink-dark height-vh">
+            <div class="logo">
+                <a href="./home.html"> <img src="./images/adminpanel.png" alt="Logo" class="logo-png">
+                </a>
+            </div>
+            <div class="nav-link">
+                <a href="#home" style="font-size: 1em;" class="fontserif atag"><img src="./images/vektor.png" alt=""
+                        width="50">Home</a>
+                <a href="#about" style="font-size: 1em;" class="fontserif atag"><img src="./images/vektor.png" alt=""
+                        width="50">About</a>
+                <a href="#joinus" style="font-size: 1em;" class="fontserif atag"><img src="./images/vektor.png" alt=""
+                        width="50">Join Us</a>
+                <a href="#contactus" style="font-size: 1em;" class="fontserif atag"><img src="./images/vektor.png"
+                        alt="" width="50">Contact</a>
+                <button href="#" id="logout" style="font-size: 1em; text-decoration: none!important; margin-left: 10.8%!important;" class="btn d-flex align-items-center text-white mt-2 py-2 pl-0 bg-pink-dark-hover"><img src="./images/vektor.png" alt=""
+                        width="50" class="img-fluid mr-3"><span class="fontserif">Logout</span></button>
+            </div>
+            <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <div class="col-md-9">
+            <div class="row ml-2">
+                <div class="container-home-content">
+                    <div class="admin-adi">
+                        <img src="./images/Profile.png" alt="">
+                        <p style="margin-top: 11px;">Admin</p>
+                    </div>
+                    <a name="home"></a>
+                    <div class="admin-search">
+                        <h3>Home</h3>
+                        <div class="search-input">
+                            <h4 style="font-size: 1.15em; font-family: 'Roboto', sans-serif;">Search book</h4>
+                            <div class="input-button">
+                                <input type="text" id="searchbutton inputsearch" placeholder="Search book" class="booksearchinput p inputsearch fontserif" style="border:solid  1px #CED4DA!important">
+                                <button class="searchbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="book-form">
+                        <h4 style="font-size: 1.15em; font-family: 'Roboto', sans-serif; color: black;">Book form</h4>
+                        <div class="book-content">
+                            <p class="p">Book Name</p>
+                            <input type="text" class="book-input bookname fontserif">
+                            <p class="p">Author Name</p>
+                            <input type="text" class="book-input authorname fontserif">
+                            <p class="p">Book Image Url</p>
+                            <input type="text" class="book-input bookimg fontserif">
+                            <p class="p">Publication Year</p>
+                            <input type="number" class="book-input publicationyear fontserif">
+                            <p class="checkbox p"><input type="checkbox" class="new-check">New</p>
+                            <p class="p">Description</p>
+                            <textarea name="" id="" cols="30" rows="4" class="book-input describtion fontserif"></textarea>
+                            <p class="p">Book Type <button class="booktypebutton booktype"><i
+                                        class="fa-solid fa-plus plus"></i></button>
+                            </p>
+                            <select class="book-input p">
+                                <option>Fantactic</option>
+                                <option>Besteller</option>
+                                <option>Baby</option>
+                                <option>Development</option>
+                                <option>Detectives</option>
+                                <option>Classic</option>
+                                <option>New</option>
+                                <option>Philosophy</option>
+                                <option>Fantastic</option>
+                                <option>Fantastic</option>
+                            </select>
+                            <button class="button-add p">Add</button>
+                        </div>
+
+                    </div>
+                    <!-- About -->
+                    <a name="about"></a>
+                    <h3 class="about">About Store</h3>
+                    <div class="book-content ">
+                        <p class="p">Title</p>
+                        <input type="text" class="book-input book-title fontserif">
+                        <p class="p">Description</p>
+                        <textarea name="" id="" cols="30" rows="4" class="book-input book-descripton fontserif"></textarea><br>
+                        <span class="p">12 / 1000</span><br><br>
+                        <p class="p">Book Image Url</p>
+                        <input type="text" class="book-input book-img-url fontserif">
+                        <button class="button-add-info button-add p about-btn">About Info Add</button>
+                    </div>
+                    <!-- join us -->
+                    <a name="joinus"></a>
+                    <h3 class="joinus">Join Us</h3>
+                    <table id="users">
+                        <thead>
+                            <tr>
+                                <th class="fontserif">#</th>
+                                <th class="fontserif">Full Name</th>
+                                <th class="fontserif">Email Address</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbl-accordion-header" id="tbody">
+                            <tr>
+                                <td class="fontserif">1</td>
+                                <td class="fontserif">Tehran Hamidli</td>
+                                <td class="fontserif">tehran@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td class="fontserif">2</td>
+                                <td class="fontserif">Nadir Musayev</td>
+                                <td class="fontserif">nadir@gmail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- contact us -->
+                    <a name="contactus"></a>
+                    <h3 class="contactus">Contact Us</h3>
+                    <table class="contact-table">
+                        <thead>
+                            <tr>
+                                <th class="fontserif">#</th>
+                                <th class="fontserif">Full Name</th>
+                                <th class="fontserif">Address</th>
+                                <th class="fontserif">Email Address</th>
+                                <th class="fontserif">Phone Number</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbl-accordion-header" id="tbodyy">
+                            <tr>
+                                <td class="fontserif">1</td>
+                                <td class="fontserif">Tehran Hamidli</td>
+                                <td class="fontserif">Baku</td>
+                                <td class="fontserif">tehran@gmail.com</td>
+                                <td class="fontserif">0556548795</td>
+                            </tr>
+                            <tr>
+                                <td class="fontserif">2</td>
+                                <td class="fontserif">Nadir Musayev</td>
+                                <td class="fontserif">Baku</td>
+                                <td class="fontserif">Nadir@gmail.com</td>
+                                <td class="fontserif">0556668775</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const logout = document.querySelector('#logout');
+        logout.addEventListener('click', function () {
+            setInterval(function() {
+                window.location = './admin.html'
+            },500)
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./JS/joinadmin.js" type="module"></script>
+    <script src="./JS/adminsearchbook.js" type="module"></script>
+    <script src="./JS/contactadmin.js" type="module"></script>
+    <script src="adminpanelabout.js" type="module"></script>
+</body>
+
+</html>

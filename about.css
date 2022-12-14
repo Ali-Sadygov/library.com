@@ -1,0 +1,98 @@
+.row {
+    box-sizing: border-box;
+    width: 100%;
+}
+#body {
+    background-color: rgb(255,250,245);
+}
+.nav-link {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.follow {
+    margin-top: 8%;
+}
+
+#fullNameContact {
+    margin-bottom: 3.5% !important;
+}
+
+.nav-link:active {
+    color: rgb(255, 139, 0) !important;
+    font-weight: 600 !important;
+}
+
+.a:hover {
+    font-weight: bold;
+    color: rgb(255, 139, 0) !important;
+    text-decoration-line: underline !important;
+}
+
+.font-weight-bolder {
+    font-weight: bolder !important;
+}
+
+.font {
+    color: rgb(36, 20, 0);
+}
+
+.list-group-item {
+    color: white !important;
+    font-size: 1.3em;
+}
+
+.img {
+    margin-bottom: 10px;
+}
+
+.li {
+    font-size: 100% !important;
+}
+
+.footer {
+    margin-top: 8%;
+    padding: 5% 0px;
+}
+
+/* about store */
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.h2-about {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+}
+.main {
+    margin-bottom: 20%;
+}
+.img-fluid {
+    float: right;
+    margin-left: 20%;
+}
+.about-image {
+    width: 100%;
+}
+.sign {
+    background-color: #FF8B00!important;
+    width: 100%!important;
+    margin-bottom: 7%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+    margin-top: 4%;
+    border-radius: 5px!important;
+}
+.welcome {
+    background-color: white!important;
+    border-radius: 5px!important;
+    margin-top: 6.5%!important;
+    padding: 0% 5% 0% 5%;
+}
+.gizlet, #errorgizlet, #succesgizlet {
+    display: none!important;
+}
